@@ -1,0 +1,89 @@
+
+etec@L61M07 MINGW32 ~
+$ cd desktop
+
+etec@L61M07 MINGW32 ~/desktop
+$ ls
+desktop.ini          'MySQL Workbench 6.3 CE.lnk'*
+'GameMaker Studio'/  'Visual Studio 2017.lnk'*
+git_atividade/
+
+etec@L61M07 MINGW32 ~/desktop
+$ cd mobile
+bash: cd: mobile: No such file or directory
+
+etec@L61M07 MINGW32 ~/desktop
+$ cd git_atividade
+
+etec@L61M07 MINGW32 ~/desktop/git_atividade (master)
+$ mkdir mobile
+
+etec@L61M07 MINGW32 ~/desktop/git_atividade (master)
+$ cd mobile
+
+etec@L61M07 MINGW32 ~/desktop/git_atividade/mobile (master)
+$ code .
+
+etec@L61M07 MINGW32 ~/desktop/git_atividade/mobile (master)
+$ git init
+Initialized empty Git repository in C:/Users/etec/Desktop/git_atividade/mobile/.git/
+
+etec@L61M07 MINGW32 ~/desktop/git_atividade/mobile (master)
+$ git remote add origin https://github.com/brunosouza321/git_atividade.git
+
+etec@L61M07 MINGW32 ~/desktop/git_atividade/mobile (master)
+$ cd mobile
+bash: cd: mobile: No such file or directory
+
+etec@L61M07 MINGW32 ~/desktop/git_atividade/mobile (master)
+$ cd git_atividade
+bash: cd: git_atividade: No such file or directory
+
+etec@L61M07 MINGW32 ~/desktop/git_atividade/mobile (master)
+$ git add third.txt
+
+etec@L61M07 MINGW32 ~/desktop/git_atividade/mobile (master)
+$ git commit -m "Adicionando third.txt" third.txt
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'etec@L61M07.(none)')
+
+etec@L61M07 MINGW32 ~/desktop/git_atividade/mobile (master)
+$ git config --global user.name "brunosouza321"
+
+etec@L61M07 MINGW32 ~/desktop/git_atividade/mobile (master)
+$ git config --global user.email "brunosouza2803@gmail.com"
+
+etec@L61M07 MINGW32 ~/desktop/git_atividade/mobile (master)
+$ git add fourth.txt
+
+etec@L61M07 MINGW32 ~/desktop/git_atividade/mobile (master)
+$ git commit -m "Adicionando fourth.txt" fourth.txt
+[master (root-commit) a6af304] Adicionando fourth.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 fourth.txt
+
+etec@L61M07 MINGW32 ~/desktop/git_atividade/mobile (master)
+$ git commit -am "Removendo third.txt" third.txt
+fatal: Paths with -a does not make sense.
+
+etec@L61M07 MINGW32 ~/desktop/git_atividade/mobile (master)
+$ git commit -am "Removendo third.txt"
+[master 7c46a57] Removendo third.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 third.txt
+
+etec@L61M07 MINGW32 ~/desktop/git_atividade/mobile (master)
+$ git config --global user.name "brunosouza321"
+
+etec@L61M07 MINGW32 ~/desktop/git_atividade/mobile (master)
+$ git config --global user.email "brunosouza2803@gmail.com"
